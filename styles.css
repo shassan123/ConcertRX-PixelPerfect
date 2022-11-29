@@ -1,0 +1,312 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Satoshi', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#nav-img{
+    padding-top: 26px;
+    padding-bottom: 26px;
+}
+.product-page{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.nav-lists{
+    display: flex;
+    gap: 24px;
+    padding-top: 39px;
+    padding-bottom: 39px;
+    padding-left: 55px;
+}
+.nav-button{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.product{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    color: #48B649;
+}
+.our-story{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    color: #27272A;
+}
+.pricing{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    color: #27272A;
+}
+.log-in{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #48B649;
+}
+.get-started{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    color: white;
+    border-radius: 22px;
+    background: #48B649;
+    padding: 14px 24px;
+}
+.main-container{
+    height: 100%;
+    max-height: 604px;
+    min-height: 604px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    
+}
+header{
+    background: rgba(72, 182, 73, 0.03);
+}
+.header-main{
+    width: 100%;
+    max-width: 624px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+}
+.svg-title{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.main-title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #71717A;
+}
+.main-heading{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 110%;
+    text-align: center;
+    padding-top: 18.5px;
+}
+span{
+    color: #48B649;
+}
+.main-paragraph{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #52525B;
+    width: 100%;
+    width: 580.04px;
+    padding-top: 16px;
+}
+.main-button{
+    display: flex;
+    gap: 8px;
+    padding-top: 32px;
+}
+.button-first{
+    font-style: normal;
+    font-weight: 700;
+    color: white;
+    font-size: 16px;
+    line-height: 100%;
+    border-radius: 22px;
+    background: #48B649;
+    padding: 16px 32px;
+}
+.button-second{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    color: #48B649;
+    border-radius: 22px;
+    border: 1px solid #48B649;
+    padding: 16px 32px;
+}
+.product-page-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.inner-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inner-svg-title{
+    display: flex;
+    gap: 9px;
+    align-items: center;
+}
+.inner-title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: -0.01em;
+}
+.inner-heading{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.04em;
+    margin-top: 8px;
+    margin-bottom: 14px;
+}
+.inner-paragraph{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: -0.01em;
+    margin-bottom: 41px;
+}
+.inner-video-info{
+    display: flex;
+    align-items: center;
+}
+.video-left-info{
+    width: 100%;
+    max-width: 175.51px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 20.49px;
+}
+.video-right-info{
+    width: 100%;
+    max-width: 186px;
+    min-width: 186px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.video-right-info{
+    width: 100%;
+    max-width: 175.51px;
+    margin-left: 20px;
+}
+.left-info-heading{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    margin-top: 8px;
+    margin-bottom: 12px;
+}
+.right-info-heading{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+}
+.left-heading-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.right-heading-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 18px;
+    /* padding-right: 9px; */
+}
+#inner-video{
+    box-shadow: 0px 10px 10px -5px rgba(0, 0, 0, 0.06), 0px 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+.left-info-details{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+    color: #52525B;
+    text-align: center;
+}
+.right-info-paragraph{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+    color: #52525B;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.video-bottom-info{
+    width: 100%;
+    max-width: 199px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20.74px;
+}
+.bottom-info-heading{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    text-align: center;
+    margin-top: 9px;
+    margin-bottom: 12px;
+}
+.bottom-info-paragraph{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+    text-align: center;
+}
+.product-page-inner{
+    margin-top: 96px;
+}
