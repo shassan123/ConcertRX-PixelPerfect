@@ -120,16 +120,17 @@ header{
 .all-cards{
     display: flex;
     gap: 32px;
-    padding-left:80px;
-    padding-right:80px;
     position: relative;
     opacity: 0.9;
-    bottom: 165px;
+    margin-top: -160px;
+    width: 100%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .card-1-plans{
     width: 100%;
     max-width: 405px;
-    min-width: 405px;
     border: 1px solid rgba(228, 228, 231, 0.5);
     height: 100%;
     box-shadow: 0px 1px 24px rgba(0, 0, 0, 0.05);
@@ -140,7 +141,6 @@ header{
 .card-2-plans{
     width: 100%;
     max-width: 405px;
-    min-width: 405px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -153,7 +153,6 @@ header{
 .card-3-plans{
     width: 100%;
     max-width: 405px;
-    min-width: 405px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -286,12 +285,13 @@ span{
     margin-right: auto;
     background: #FAFAFA;
     border-radius: 8px;
-    padding: 24px;
+    margin-top: 48px;
 }
 .note-details{
     display: flex;
     flex-direction: column;
     gap: 8px;
+    padding: 24px;
 }
 .note-heading{
     font-style: normal;
@@ -401,6 +401,7 @@ span{
 }
 .footer-details {
     display: flex;
+    align-items: center;
 }
 .first-details-logo {
     width: 100%;
@@ -507,7 +508,7 @@ span{
     width: 100%;
     align-items: center;
 }
-.footer-details-title {
+#link{
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -515,9 +516,12 @@ span{
     border-right: 1px solid #52525b;
     padding-right: 20px;
     padding-left: 20px;
+    text-decoration: none;
+    color: black;
 }
 .footer-details-title-last {
     font-style: normal;
+    color: black;
     font-weight: 500;
     font-size: 16px;
     line-height: 100%;

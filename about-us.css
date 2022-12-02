@@ -154,6 +154,7 @@ em{
 }
 .footer-details {
     display: flex;
+    align-items: center;
 }
 .first-details-logo {
     width: 100%;
@@ -261,7 +262,8 @@ em{
     align-items: center;
 }
 
-.footer-details-title {
+#link{
+    color: black;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -269,6 +271,7 @@ em{
     border-right: 1px solid #52525b;
     padding-right: 20px;
     padding-left: 20px;
+    text-decoration: none;
 }
 .footer-details-title-last {
     font-style: normal;
@@ -276,6 +279,7 @@ em{
     font-size: 16px;
     line-height: 100%;
     padding-left: 20px;
+    color: black;
 }
 .footer-end {
     width: 100%;

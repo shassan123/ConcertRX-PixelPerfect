@@ -231,6 +231,7 @@ body {
 }
 .footer-details {
     display: flex;
+    align-items: center;
 }
 .first-details-logo {
     width: 100%;
@@ -339,7 +340,7 @@ body {
     align-items: center;
 }
 
-.footer-details-title {
+#link{
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -347,10 +348,12 @@ body {
     border-right: 1px solid #52525b;
     padding-right: 20px;
     padding-left: 20px;
+    text-decoration: none;
     color: black;
 }
 .footer-details-title-last {
     font-style: normal;
+    color: black;
     font-weight: 500;
     font-size: 16px;
     line-height: 100%;
